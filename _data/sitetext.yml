@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Get insights into network monitoring the movement of funds over time with UTXO Lenses
-    text: UTXO Lensens
+    title: Get insights into network transactions over any time period
+    text: UTXO Lenses
     button: Tell Me More
     buttonlink: "#services"
 
