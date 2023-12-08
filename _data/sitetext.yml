@@ -11,67 +11,68 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Get insights into network monitoring the movement of funds over time with UTXO Lenses
+    text: UTXO Lensens
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "OVERVIEW"
+    text: "Why explore the visualization of UTXO?"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Transaction flow"
+        desc: "Discover the streamlined pathway of transactions, making it easier for both users and analysts to understand complex network dynamics."
+        icon: fas fa-wave-square #find more at https://fontawesome.com/icons
+      - title: "Transparency"
+        desc: "Tracing these outputs is essential for verifying transactions, ensuring their legitimacy through a straightforward and accessible process."
+        icon: fas fa-handshake
+      - title: "Audibility"
+        desc: "Monitoring the movement of funds over time can reveal trends and anomalies and help identify potential issues or areas for improvement."
+        icon: fas fa-coins
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Visualization"
+    text: "Explore both 3D and 2D heatmaps for a user-friendly visual experience"
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
+    text: "Summary of our journey"
+    section: 
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "October, 2023"
+        year: "Beginning"
+        desc: "We checked out past projects for ideas, and during our brainstorming session, we came up with the idea to show UTXOs on ResilientDB. We also thought about visualizing the overall blockchain process and transaction handling."
+        image: assets/img/timeline/1.png
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "November, 2023"
+        year: "Progression"
+        desc: "We set up ResilientDB and the backend, including ResilientDB SDK, ResVault, and a GraphQL server. We also got local wallets ready and made a demo image for visualization. Then, we figured out how to handle data, and generated workloads. Finally, we added features like personalized heat maps for individual wallets and general heat maps based on time."
+        image: assets/img/timeline/2.png
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "December, 2023"
+        year: "Finalization"
+        desc: "We began with 50 transactions for the visualization, and now we've scaled up to 10,000 transactions. Additionally, we fine-tuned the design to enhance the user interface. Moreover, we incorporated a feature allowing control over the period, with a maximum of 5 years."
+        image: assets/img/timeline/3.png
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "2024"
+        year: "Future works"
+        desc: "As we explore future options, we're thinking about incorporating real-world data to manage workload and visualize transaction volume based on geographical data."
+        image: assets/img/timeline/4.png
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Look forward<br> to our <br>next moves!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "HOW TO RUN"
+    text: "FOLLOW THIS STEP"
+    body: ""
+    image: assets/img/timeline/4.png
     section: about
 
   clients:
@@ -93,56 +94,67 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "TEAM MEMBERS"
+    text: ""
+    subtext: 
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+      - name: "Darshan Acharya"
+        role: "Front-end Developer"
+        desc1: "Contributed to idea generation and brainstorming process by proposing blockchain visualization."
+        desc2: "Developed a improved 2D heatmap."
+        desc3: "Worked on adding zoom features to the 2d heatmap and ensuring it can handle a larger number of transactions."
+        image: assets/img/team/sha.png
+
+      - name: "Gia-Phong Nguyen"
+        role: "Front-end Developer"
+        desc1: "Proposed the idea of visualizing different branches of a blockchain network."
+        desc2: "Created a 3D heatmap that is interactive to bring more flexibility and set a foundation for future work."
+        desc3: "On feedback from the team, implemented UI features, such as timestamp filtering, to enhance the user experience."
+        image: assets/img/team/gia.png
+
+      - name: "Goodness Ayinmode"
+        role: "Back-end Developer"
+        desc1: "Proposed the project idea we ultimately selected to build, and laid the groundwork by building a prototype 2D heatmap."
+        desc2: "Developed alogirithm to transform the raw data from ResilientDB to something usable for the front end."
+        desc3: "Created the API endpoints to facillitate the connection between the front end and back end. Also assited with proposals, presentation and reports."
+        image: assets/img/team/gdn.png
+
+      - name: "Haneul Lee"
+        role: "Front-end Developer"
+        desc1: "Proposed the idea of implementing a Blockchain-based solar energy trading system, eliminating the need for a trusted third party."
+        desc2: "Coordianted group meetings and documented minutes of meeting, crafted proposals, and mid-term reports and also performed tests on the frontend and backend."
+        desc3: "Collected content for final report and Built the project website which would be deployed to github.io "
+        image: assets/img/team/hnl.png
+
+      - name: "Viral Bhadeshiya​"
+        role: "Back-end Developer"
+        desc1: "Explored ResilientDB fabric and SDK during brainstorming to simplify implementation processes for the team after settling on a project idea."
+        desc2: "Managed the technical setup on the back-end side of the project."
+      desc3: "Developed various scripts to connect to the ResilientDB driver and generate thousands of transactions using the ResilientDB schema."
+        image: assets/img/team/vir.png
+
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "University of California Davis, 1 Shields Ave, Davis, CA 95616"
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    people:
+      - name: "Darshan Acharya"
+        email: "dacharya@ucdavis.edu"
+
+      - name: "Gia-Phong Nguyen"
+        email: "gjnguyen@ucdavis.edu"
+
+      - name: "Goodness Ayinmode"
+        email: "goayinmode@ucdavis.edu"
+
+      - name: "Haneul Lee"
+        email: "hnee@ucdavis.edu"
+
+      - name: "Viral Bhadeshiya​"
+        email: "vrbhadeshiya@ucdavis.edu"
+
 
   footer:
     legal: "Privacy Policy"
@@ -320,3 +332,156 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+
+# Deutsch
+# -----------------
+de: &DEFAULT_DE
+  header:
+    title: Willkommen auf unserer Webseite!
+    text: Schön das Sie hier sind!
+    button: Mehr erfahren
+    buttonlink: "#Angebote"
+
+  services:
+    title: "Leistungen"
+    text: "Was wir anbieten."
+    section: Leistungen
+    list:
+      - title: "E-Commerce"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Responsive Design"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://de.wikipedia.org/wiki/Markdown)"
+        desc: "Hier können Sie etwas mit **Markdown** einfügen."
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: Portfolio
+    closebutton: "Schließen"
+
+  timeline:
+    title: "Geschichte"
+    text: "Lorem ipsum timeline"
+    section: Geschichte
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Unsere Anfänge"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Gründung der Firma"
+        year: "März 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Das Jekyll-Thema wurde erstellt"
+        year: "2019"
+        desc: "Ravi Riley wandelte Agency, ein auf Bootstrap basierendes Thema, in ein Jekyll-Thema um. Man kann das Jekyll-Thema als Ruby-Gem oder remotely installieren. Für mehr Informationen, schauen Sie sich die Dokumentation an."
+        image: assets/img/timeline/3.jpg
+        alt: Bildbeschreibung
+      - title: "Titel"
+        year: "2009-2011"
+        desc: "Hier können Sie etwas mit **Markdown** einfügen."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Seien Sie <br> Teil unserer <br> Geschichte!"
+
+  about:
+    title: "Über uns"
+    text: "Unsere Geschichte."
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: Ueber
+
+  clients:
+    section: Kunden
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "Unser großartiges Team"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: Team
+    people:
+      - name: "Kay Garland"
+        role: "Chef-Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Chef der Werbeabteilung"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Chef-Programmiererin"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Kontakt"
+    text: "Kontaktieren Sie uns."
+    section: Kontakt
+    name: "Name*"
+    name-validation: "Geben Sie einen Namen ein."
+    email: "E-Mail*"
+    email-validation: "Geben Sie Ihre E-Mail-Addresse ein."
+    phone: "Telefonnummer*"
+    phone-validation: "Geben Sie Ihre Telefonnummer ein."
+    message: "Nachricht*"
+    message-validation: "Schreiben Sie etwas..."
+    subject: "Kontakt-Formular Bestätigung"
+    submit: "Nachricht absenden"
+
+  footer:
+    legal: "Datenschutzerklärung"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+de-DE:
+  <<: *DEFAULT_DE
