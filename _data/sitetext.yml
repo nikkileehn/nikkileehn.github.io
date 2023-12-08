@@ -131,7 +131,7 @@ en: &DEFAULT_EN
         role: "Back-end Developer"
         desc1: "Explored ResilientDB fabric and SDK during brainstorming to simplify implementation processes for the team after settling on a project idea."
         desc2: "Managed the technical setup on the back-end side of the project."
-      desc3: "Developed various scripts to connect to the ResilientDB driver and generate thousands of transactions using the ResilientDB schema."
+        desc3: "Developed various scripts to connect to the ResilientDB driver and generate thousands of transactions using the ResilientDB schema."
         image: assets/img/team/vir.png
 
 
