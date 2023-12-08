@@ -3,7 +3,7 @@ caption: #what displays in the portfolio grid:
   title: 2D heatmap
   subtitle: 
   thumbnail: assets/img/portfolio/2d.png
-  link: https://htolani.github.io/
+  link: https://utxo.netlify.app/
   
 #what displays when the item is clicked:
 title: Title
