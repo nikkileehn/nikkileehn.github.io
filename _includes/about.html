@@ -10,9 +10,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}</div>
+      {% for service in site.data.sitetext[site.locale].about.list %}
+      <div class="col-md-4">
+        <h4 class="service-heading">{{ service.title | markdownify }}</h4>
+        {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>

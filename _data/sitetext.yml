@@ -69,11 +69,17 @@ en: &DEFAULT_EN
     end: "Look forward<br> to our <br>next moves!"
 
   about:
-    title: "HOW TO RUN"
-    text: "FOLLOW THIS STEP"
+    title: "ARCHITECTURE"
+    text: "SYSTEM ARCHITECTURE"
     body: ""
-    image: assets/img/timeline/setupguide.png
     section: about
+    list:
+      - title: "2D VISUALIZATION"
+        desc: "The 2D heatmap visualization leverages React components and D3.js to visualize transaction data. The key components are the parent App, YearSlider, and Heatmap. The App component manages the state and renders the YearSlider and Heatmap. It contains the currentYear state representing the selected year and updates this via the handleYearChange handler. The YearSlider is a range input that selects a year, invoking a callback to update the current year on change. The Heatmap fetches data with Axios, filters transactions by the current year, and visualizes them using D3.js to create an SVG heatmap with tooltips. It also displays transactions in a table, allowing copying to the clipboard. The core user interactions involve adjusting the YearSlider to filter transactions by year, clicking a preview button to view transactions in the table, and copying them to the clipboard. The architecture strategies aim to coordinate shared state while isolating direct DOM access. Specifically, the parent App component manages the state related to the selected year, which is leveraged to filter transactions in the child Heatmap. D3.js visualization code is encapsulated within the Heatmap as well. Overall, the combination of React, D3.js, and Axios facilitates building an interactive transaction visualization tool with intuitive controls, by separating concerns into coordinated components. In this way, the heatmap  offers insightful analytical perspectives on the transactions that has evolved over time."
+      - title: "3D VISUALIZATION"
+        desc: "For the 3D heatmap, the core of this display is with the Three.js library. This library allows for the creation of 3D scenes in the browser, rendering 3D objects with advanced lighting and shadows. The objects can be interacted with by utilizing ray casting, also a tool built into Three.js, allowing for the 3D scene to detect which objects are hovered over by the cursor. The slider at the bottom of the page specifies a new start and end data for transactions to view and the update button does a new fetch for transactions ranging in this time span from the API, then refreshes the scene’s cubes to reflect the transactions. Rather than frontloading all the data, then filtering using the slider (which was initially done), this design allows for improved frontend performance should the total number of transactions be scaled to a massive amount, making it so that the front end only needs to hold the transactions reflecting the slider. Other than the 3D scene, the rest of the page elements are created via simple HTML elements and CSS styling, no frameworks were used. Vite.js was used to build the page and GitHub Pages was used for the deployment."
+      - title: "BACK-END"
+        desc: ""
 
   clients:
     section: clients
