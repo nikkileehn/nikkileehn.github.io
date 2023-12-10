@@ -60,8 +60,8 @@ en: &DEFAULT_EN
         image: assets/img/timeline/3.png
         alt: image alt text
       - title: "2024"
-        year: "Future works"
-        desc: "As we explore future options, we're thinking about incorporating real-world data to manage workload and visualize transaction volume based on geographical data."
+        year: "Future scope"
+        desc: "We plan to pull in real world trasaction data into from popular block chain networks such as Bitcoin and Ethereum into resilientdDB. With our visualization (which we would continue to improve) we hope to provide analysts insights into transaction volume patterns, address clustering, smart contract activity, market sentiment, anomaly detection, token flow analysis, and network health metrics."
         image: assets/img/timeline/4.png
         alt:
         # you can enforce the alignment
