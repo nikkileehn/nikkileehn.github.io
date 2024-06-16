@@ -36,9 +36,11 @@
 
   </head>
   <body>
+
     <div class="wrapper">
+
       <header>
-        
+
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
@@ -46,15 +48,15 @@
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        <position style="font-size:1.50rem;">{{ site.position }}</position>
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor style="font-size:1.15rem;">{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
         {% if site.email %}
-        <email>{{ site.email }}</email>
+        <a href="{{site.email_link}}"><email>{{ site.email }}</email></a>
         {% endif %}
 
         <br>
@@ -93,9 +95,19 @@
         <br>
 
       </header>
+      <logo_section>
+        <div>      
+          {% if site.school_logo %}
+          <a class="image school_logo" style="width: 18%; float:right "><img src="{{ site.school_logo }}" alt="school_logo" /></a>
+          {% endif %}
+        </div>
+        <br>
+      </logo_section>
       <section>
 
-      {{ content }}
+        <div>
+          {{ content }}
+        </div>
 
       <br>
 

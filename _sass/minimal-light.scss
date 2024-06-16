@@ -104,7 +104,7 @@
   background-color:#000}
 
 email {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Ubuntu Mono";
 }
 
@@ -216,7 +216,7 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 45%;
+        width: 100%;
         padding: 20px;
         // border: 1px solid #ddd;
         // padding: 3px;
@@ -231,7 +231,7 @@ papertitle {
 h3, h4, h5, h6 {
   font-weight: 600;
   color:#043361;
-  margin:0 0 20px;
+  margin:0 0 0px;
 }
 
 h1 {
@@ -247,6 +247,7 @@ h2 {
   font-size: 157%;
 }
 
+
 @media (prefers-color-scheme: dark) {
   h1, h3, h4, h5, h6 {
     color:rgb(62, 183, 240);
@@ -258,7 +259,8 @@ h2 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  margin:0 0 0px;
+  font-size: 110%;
 }
 
 h1, h2, h3 {
@@ -266,7 +268,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:35px;
 }
 
 a {
@@ -434,10 +436,15 @@ header ul a strong {
 section {
   width:650px;
   float:right;
-  padding-top:4.0em;
+  padding-top:1.0em;
   padding-bottom:50px;
 }
 
+logo_section {
+  width:650px;
+  float:right;
+  padding-top:1.0em;
+}
 small {
   font-size:11px;
 }
@@ -503,6 +510,13 @@ footer {
         width: 117px;
         padding:20px;
       }
+    
+    .image.school_logo img{
+        border-radius: 0%;
+        width: 10px;
+        padding:20px;
+      }
+
   #head1o2 {
     visibility: hidden;
   }
