@@ -12,7 +12,7 @@ Before UC Davis, I worked as a Software Engineer for over three years, specializ
 
 <br/>
 
-My research interests focus on **Software Engineering**, **Machine Learning** and **High Performance Computing**.
+My research interests focus on **Software Engineering**, **Machine Learning**, and **High Performance Computing**.
 
 
 <br/>
