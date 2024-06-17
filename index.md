@@ -1,6 +1,9 @@
 ---
 layout: homepage
 ---
+<p align="right">
+  <img src="./assets/img/ucdavis.png" alt="UC Davis logo" style="width: 20%;">
+</p>
 
 ## About Me
 
@@ -16,14 +19,19 @@ My research interests focus on Software **Engineering**, **Machine Learning** an
 
 ## Education
 
-### University of California, Davis 　　　　　　　　　　　　　Sept 2023 - Present
+<div style="display: flex; justify-content: space-between;">
+  <span><h3> University of California, Davis</h3></span>
+  <span><h3 style="text-align: right;">Sept 2023 - Present</h3></span>
+</div>
 Doctor of Philosophy, Computer Science
 
 *Davis, CA, USA*  
 
 <br/>   
-
-### Konkuk University 　　　　　　　　　　　　　　　　　　 Mar 2014 - Feb 2018
+<div style="display: flex; justify-content: space-between;">
+  <span><h3> Konkuk University</h3></span>
+  <span><h3 style="text-align: right;">Mar 2014 - Feb 2018</h3></span>
+</div>
 Bachelor of Science, Computer Engineering
 
 *Chungju, Republic of Korea*
@@ -42,41 +50,60 @@ Bachelor of Science, Computer Engineering
 
 ## Experience
 
-### Research Assistant | UC Davis
+<div style="display: flex; justify-content: space-between;">
+  <span><h3> Research Assistant</h3></span>
+  <span><h3 style="text-align: right;">Sept 2023 - present</h3></span>
+</div>
+
 **Advisor**: Prof. Cindy Rubio-González
 
 Programming Languages and Software Engineering Group (PLSE)
 
+University of California, Davis
 
-*Sept 2023 - present, Davis, CA, USA*
+*Davis, CA, USA*
 
 <br/>   
 
-### Software Engineer | KEPCO KDN
+<div style="display: flex; justify-content: space-between;">
+  <span><h3> Software Engineer</h3></span>
+  <span><h3 style="text-align: right;">Oct 2018 - Mar 2022</h3></span>
+</div>
+ 
 KEPCO Knowledge, Data & Network Co.
 
-*Oct 2018 - Mar 2022, Naju, Korea*
+*Naju, Korea*
 
 <br/>   
 
-### IT Intern | KEPCO KDN
+<div style="display: flex; justify-content: space-between;">
+  <span><h3> IT Intern</h3></span>
+  <span><h3 style="text-align: right;">Jul 2018 - Sep 2018</h3></span>
+</div>
+ 
 KEPCO Knowledge, Data & Network Co.
 
-*Jul 2018 - Sep 2018, Naju, Korea*
+*Naju, Korea*
 
 <br/>   
+<div style="display: flex; justify-content: space-between;">
+  <span><h3> IT Intern</h3></span>
+  <span><h3 style="text-align: right;">Jun 2018 - Jul 2018</h3></span>
+</div>
 
-### IT Intern | KIPI
 Korea Institute of Patent Information
 
-*Jun 2018 - Jul 2018, Daejun, Korea*
+*Daejun, Korea*
 
 <br/>   
+<div style="display: flex; justify-content: space-between;">
+  <span><h3> IT Intern</h3></span>
+  <span><h3 style="text-align: right;">Apr 2018 - May 2018</h3></span>
+</div>
 
-### IT Intern | KPX
 Korea Power Exchange
 
-*Apr 2018 - May 2018, Naju, Korea*
+*Naju, Korea*
 
 <br/>   
 
