@@ -7,7 +7,7 @@ layout: homepage
 
 ## About Me
 
-I am a Computer Science Ph.D. student at the University of California, Davis, advised by Prof. Cindy Rubio-González.
+I am a Computer Science Ph.D. student at the University of California, Davis, advised by Prof. <a href="https://web.cs.ucdavis.edu/~rubio/">Cindy Rubio-González</a>.
 Before UC Davis, I worked as a Software Engineer for over three years, specializing in enterprise system development, data migration, and server maintenance.
 
 <br/>
@@ -55,9 +55,9 @@ Bachelor of Science, Computer Engineering
   <span><h3 style="text-align: right;">Sept 2023 - present</h3></span>
 </div>
 
-**Advisor**: Prof. Cindy Rubio-González
+**Advisor**: Prof. <a href="https://web.cs.ucdavis.edu/~rubio/">Cindy Rubio-González</a>
 
-Programming Languages and Software Engineering Group (PLSE)
+<a href="https://github.com/ucd-plse" style="color:#595959;">Programming Languages and Software Engineering Group (PLSE)</a>
 
 University of California, Davis
 
