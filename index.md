@@ -124,3 +124,5 @@ Korea Power Exchange
 
 {% include_relative _includes/services.md %}
 -->
+<br/><br/>
+© 2024, Haneul Lee. Based on the Minimal Jekyll theme, CC0 1.0. | Last updated: June 2024
