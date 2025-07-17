@@ -43,6 +43,8 @@ Bachelor of Science, Computer Engineering
 
 ## Teaching Assistance
 
+- **[ECS 140A]** Programming Languages, UC Davis, Spring 2025
+
 - **[ECS 140A]** Programming Languages, UC Davis, Spring 2024
 
 
