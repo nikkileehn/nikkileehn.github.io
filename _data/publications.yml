@@ -1,6 +1,6 @@
 main:
 
-  - title: RLTuner: Floating-Point Precision Tuning Using Deep Reinforcement Learning
+  - title: "RLTuner: Floating-Point Precision Tuning Using Deep Reinforcement Learning"
     authors: Haneul Lee*, Yutong Wang*, Cindy Rubio-González (*Equal contribution)
     conference_short: ISC
     conference: Proceedings of ISC High Performance <strong>(ISC)</strong>, 2026.
