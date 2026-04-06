@@ -116,8 +116,6 @@ Korea Power Exchange
 - **[Co-reviewer]** ICSE 2025 Research Track
 - **[Co-reviewer]** PLDI 2024 Research Track
 
-**[Mar. 2026]** Our paper about precision tuning is accepted to ISC High Performance 2026!
-
 <!-- 
 
 **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
