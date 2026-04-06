@@ -24,7 +24,11 @@
 
 blockquote { background: var(--global-bg-color); border-left: 2px solid var(--global-theme-color); margin: 1.5em 10px; padding: 0.5em 10px; font-size: 1.2rem; }
 
-@media print, screen and (min-width: 480px) {.col-sm-9 {width: 100%;}}
+.pub-row { display: flex; }
+
+.pub-row .col-sm-3 { flex-shrink: 0; width: 80px; }
+
+.pub-row .col-sm-9 { flex: 1; }
 
 .publications { margin-top: 2rem; }
 

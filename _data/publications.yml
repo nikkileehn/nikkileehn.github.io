@@ -3,7 +3,7 @@ main:
   - title: "RLTuner: Floating-Point Precision Tuning Using Deep Reinforcement Learning"
     authors: Haneul Lee*, Yutong Wang*, Cindy Rubio-González (*Equal contribution)
     conference_short: ISC
-    conference: Proceedings of ISC High Performance <strong>(ISC 2026)</strong>.
+    conference: Proceedings of ISC High Performance <strong>(ISC 2026)</strong>
     venue: Hamburg, Germany, June 2026.
 
 
@@ -13,6 +13,7 @@ main:
     conference: Korea Society of Computer Information <strong>(KSCI 2017)</strong>
     pdf: https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=CFKO201731342442486&oCn=NPAP12689764&dbt=CFKO&journal=NPRO00377598&keyword=A%20Study%20on%20Personalized%20Health%20Care%20Contents%20Recommendation%20Algorithm
     venue: Chungju, Korea, July 2017.
+    
   # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
   #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
   #   conference_short: MICCAI
