@@ -111,14 +111,14 @@ Korea Power Exchange
 
 <br/>   
 
-## Acaedmic Service
+## Academic Service
 
 - **[Co-reviewer]** ICSE 2025 Research Track
 - **[Co-reviewer]** PLDI 2024 Research Track
 
+**[Mar. 2026]** Our paper about precision tuning is accepted to ISC High Performance 2026!
 
 <!-- 
-**[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
 
 **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
 
@@ -129,4 +129,4 @@ Korea Power Exchange
 {% include_relative _includes/services.md %}
 -->
 <br/><br/>
-© 2024, Haneul Lee. Based on the Minimal Jekyll theme, CC0 1.0. | Last updated: October 2025
+© 2024, Haneul Lee. Based on the Minimal Jekyll theme, CC0 1.0. | Last updated: April 2026
