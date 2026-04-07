@@ -7,7 +7,7 @@
 
 <li>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px; padding-bottom: 30px;">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
     {% endif %}
@@ -26,6 +26,9 @@
     <div class="links">
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+      {% if link.source %} 
+      <a href="{{ link.source }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Source</a>
       {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>

@@ -28,7 +28,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .pub-row .col-sm-3 { flex-shrink: 0; width: 80px; }
 
-.pub-row .col-sm-9 { flex: 1; }
+.pub-row .col-sm-9 { flex: 1; padding-top: 24px; }
 
 .publications { margin-top: 2rem; }
 
