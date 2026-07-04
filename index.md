@@ -70,6 +70,17 @@ University of California, Davis
 <br/>   
 
 <div style="display: flex; justify-content: space-between;">
+  <span><h3> Computing Graduate Student Intern</h3></span>
+  <span><h3 style="text-align: right;">Jun 2026 - Sep 2026</h3></span>
+</div>
+
+Lawrence Livermore National Laboratory (LLNL)
+
+*Livermore, CA, USA*
+
+<br/>   
+
+<div style="display: flex; justify-content: space-between;">
   <span><h3> Software Engineer</h3></span>
   <span><h3 style="text-align: right;">Oct 2018 - Mar 2022</h3></span>
 </div>
@@ -127,4 +138,4 @@ Korea Power Exchange
 {% include_relative _includes/services.md %}
 -->
 <br/><br/>
-© 2024, Haneul Lee. Based on the Minimal Jekyll theme, CC0 1.0. | Last updated: April 2026
+© 2024, Haneul Lee. Based on the Minimal Jekyll theme, CC0 1.0. | Last updated: July 2026

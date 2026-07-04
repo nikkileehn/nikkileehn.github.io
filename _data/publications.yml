@@ -5,8 +5,8 @@ main:
     conference_short: ISC
     conference: Proceedings of ISC High Performance <strong>(ISC 2026)</strong>
     venue: Hamburg, Germany, June 2026.
-    # pdf: tbd
-    # source: tbd
+    pdf: https://ieeexplore.ieee.org/abstract/document/11520490
+    source: https://github.com/ucd-plse/RLTuner
 
 
   - title: A Study on Personalized Health Care Contents Recommendation Algorithm
