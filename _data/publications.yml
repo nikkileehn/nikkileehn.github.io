@@ -5,7 +5,7 @@ main:
     conference_short: ISC
     conference: Proceedings of ISC High Performance <strong>(ISC 2026)</strong>
     venue: Hamburg, Germany, June 2026.
-    pdf: https://ieeexplore.ieee.org/abstract/document/11520490
+    pdf: https://doi.org/10.23919/ISC.2026.11520490
     source: https://github.com/ucd-plse/RLTuner
 
 
