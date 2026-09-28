@@ -124,6 +124,7 @@ Korea Power Exchange
 
 ## Academic Service
 
+- **[Student Volunteer]**, OOPSLA/ISSTA 2026 (SPLASH/ISSTA)
 - **[Co-reviewer]** ICSE 2025 Research Track
 - **[Co-reviewer]** PLDI 2024 Research Track
 
@@ -138,4 +139,4 @@ Korea Power Exchange
 {% include_relative _includes/services.md %}
 -->
 <br/><br/>
-© 2024, Haneul Lee. Based on the Minimal Jekyll theme, CC0 1.0. | Last updated: August 2026
+© 2024, Haneul Lee. Based on the Minimal Jekyll theme, CC0 1.0. | Last updated: September 2026
